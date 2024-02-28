@@ -29,21 +29,21 @@ function App() {
     <div className="App">
       <h1> Relógio Mundial 🌎</h1>
       <div className="clock-container">
-        <WorldClock location="Brasília">
+        <WorldClock location="Brasília"
                       time={time.toLocaleTimeString('pt-br', {
-                        timeZone: 'America/Sao_Paulo' } )} </WorldClock>
+                        timeZone: 'America/Sao_Paulo' } )} />
 
-        <WorldClock location="Nova York">
+        <WorldClock location="Nova York"
                       time={time.toLocaleTimeString('en-US', {
-                        timeZone: 'America/New_York' } )} </WorldClock>
+                        timeZone: 'America/New_York' } )} />
 
-        <WorldClock location="Londres">
+        <WorldClock location="Londres"
                       time={time.toLocaleTimeString('en-GB', {
-                        timeZone: 'Europe/London' } )} </WorldClock>
+                        timeZone: 'Europe/London' } )} />
 
-        <WorldClock location="Tokyo">
+        <WorldClock location="Tokyo"
                       time={time.toLocaleTimeString('ja-JP', {
-                        timeZone: 'Asia/Tokyo' } )} </WorldClock>
+                        timeZone: 'Asia/Tokyo' } )} />
 
       </div>
     </div>
